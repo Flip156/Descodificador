@@ -7,6 +7,8 @@ Instruções para Usar o Aplicativo de Decodificação
 Acessando o Aplicativo
 
 Primeiro, abra o aplicativo de decodificação no seu navegador. Ele é uma página web criada com HTML, CSS e JavaScript.
+![image](https://github.com/user-attachments/assets/4eed4bb7-7f6e-42c6-9745-89d567086b33)
+
 
 Entendendo o Objetivo
 
