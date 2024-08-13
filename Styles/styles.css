@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(#7f3d9e, #6d00d9);
+    width: 100%;
+}
+
+/* ESPACAR LOGO EM 88PX OU MAIS */
+/* COLOCAR REDES SOCIAIS */
+/* BOTAO DE BRANCO E ESCURO */
+.logo {
+    margin-left: 150px;
+    padding-top: 10px;
+    width: 150px;
+}
+
+:hover .logo {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 15%;
+}
+
+.lado-esquerdo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+/* AUMENTAR CAIXA DE TEXTO PARA BAIXO */
+.text-area {
+    height: 600px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    text-transform: lowercase;
+    min-block-size: 600px;
+    max-block-size: 600px;
+    max-width: 695.8px;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.lado-direito {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 347.9px;
+    gap: 10px;
+}
+
+.mensagem {
+    height: 80%;
+    width: 347.9px;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 40px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 40px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 40px 0px rgb(255, 255, 255);
+    border-radius: 30px 30px 0px 60px;
+    border: 0px outset #000000;
+    color: #ffffff;
+    position: fixed;
+    text-align: center;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.lado-direito img {
+    align-items: center;
+    width: 347.9px;
+}
+
+.sem-mensagem {
+    text-align: center;
+    color: #0A3871;
+    line-height: 28.8px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+    color: #0A3871;
+}
+
+.botoes {
+    margin-top: 18px;
+}
+
+.btn-descriptar {
+    background: #ffffff;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #000000;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    position: absolute;
+    width: 250px;
+    margin-top: 102px;
+    margin-left: 45px;
+}
+
+.informacao {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 28.8px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="Styles/styles.css">
+        <link rel="shortcut icon" type="imagex/png" href="./img/—Pngtree—light effect hacker game icon_6566754.png">
+    </head>
+
+    <body>
+        <main>
+            <img class="logo" src="img/—Pngtree—light effect hacker game icon_6566754.png" alt="">
+            <!-- lado esquerdo -->
+            <section>
+                <div class="lado-esquerdo">
+                    <textarea class="text-area" id="campo" cols="41" rows="4" placeholder="Digite um texto que você deseja criptografar..."></textarea>
+                    <div>
+                    <h6 class="informacao"><img src="img/alerta.png" alt="alerta">Apenas letras minúsculas e sem acento.</h6>
+                    </div>
+                    <div class="botaes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-descriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                    </div>
+                </div>  
+            <!-- lado direito -->
+                <div class="lado-direito">
+                    <textarea class="mensagem" id="campoTexto"></textarea>
+                    <img id="image" src="img/—Pngtree—cyber hacker icon_6566749.png" alt="personagem">
+                    <div>
+                        <button class="btn-copiar" onclick="copiarTexto()" id="copiarTexto">Copiar Texto</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="Script.js"></script>
+    </body>
+
+</html>
