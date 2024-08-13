@@ -15,13 +15,11 @@ O aplicativo permite que você criptografe e decodifique textos com base em uma 
 Como Funciona a Criptografia
 
 Aqui está a lista de substituições usada para a criptografia:
-
 A letra "e" é convertida para "enter"
 A letra "i" é convertida para "imes"
 A letra "a" é convertida para "ai"
 A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
-
 Por exemplo, a palavra "gato" seria criptografada como "gaitober".
 
 Codificando um Texto
@@ -37,7 +35,6 @@ Após codificar ou decodificar, você pode facilmente copiar o texto resultante 
 Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando:
-
 JavaScript: para a lógica de criptografia e decodificação.
 CSS: para o estilo da página.
 HTML: para a estrutura da página.
